@@ -1,43 +1,41 @@
 * {
     padding: 2;
-    margin: 2;
+    margin-left: 10;
+    margin-right: 10;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* text-decoration-color:rgb(43, 68, 68); */
 }
 
 body {
 
-       background-color:rgb(73, 182, 255); 
+       background-color:rgb(153, 0, 51); 
+       /* gray text: rgb(191, 191, 191)*/
 }
 
 nav {
-    color:cyan; 
-      /*color:rgb(39, 76, 243); */
+    
+      color: rgb(153, 0, 51); 
       display: flex;
       float: right; 
-      /*background-color:rgb(127, 190, 233); */
       padding: 14px 20px;
-      /* Change background color to distinguish from rest of page */
+      
     }
 
 nav a {
-     /*background-color:rgb(127, 190, 233); 
-      padding: 0px 25px; */
       float: right;  
       text-decoration: underline;
-      /* text-align:     ; */
     }
 
 header  {
-    background-color: cyan;
+    background-color: rgb(191, 191, 191);
     margin-bottom: 60px;
     /*background-color:rgb(73, 182, 255);
     padding: 14px 20px; */
     }
 
 header h1 {
-    color: cyan;
-    background-color:rgb(73, 182, 255);
+    color:rgb(191, 191, 191);
+    background-color:rgb(153, 0, 51);
     padding: 5px 10px;
     text-align: center;
      /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
@@ -47,30 +45,37 @@ header h1 {
 header ul li {
     display: inline-block;
     margin-left: 25px;
+    color: rgb(153, 0, 51);
     }
      
 main {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+   /* flex-wrap: wrap; */
+   /* flex-direction: column; */
     padding: 20 px;
     margin-top: 2px;
     margin-right: 2px;
 }
 
+
 .work {
         display: flex;
+       flex-wrap: wrap;
+        flex-direction: column; 
         width: 1005px;
         height: 600px;
         border-width: 2px;
         padding: 20 px;
         margin-right: 10px;
+        margin-bottom: 20px;
         padding-bottom: 50px;
-    }
-
-.main-example {
-    margin-top: 70px ;
-}    
+       
+    }  
+.card {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000;
+}
   
 .main-example h3 {
     text-indent:50%;
@@ -85,46 +90,71 @@ main {
     border-width: 2px;
     padding: 20 px;
     margin-right: 10px;
-
+    margin-top: 70px;
+    max-width: 100%;
 }
+
 .content h2 {
     /* color:rgb(39, 76, 243); */
-    color:cyan;
+    color:rgb(191, 191, 191);
 }
 
-p {
-    color:rgb(39, 76, 243); 
+h3 {
+    color:rgb(191, 191, 191); 
+}
+
+h4 {
+    color:rgb(191, 191, 191); 
 }
 
 .about-me .card {
-    color: rgb(67, 129, 131);
+   display: flex;
+   flex-wrap: wrap;
+   color: rgb(67, 129, 131);
+   
 }
 
 aside {
-    margin-top: 70px ;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column ;
+    margin-top: 70px ;
+   /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 footer {
     text-align: center;
     display: flex;
-    color: cyan;    
+    color: rgb(153, 0, 51); ;   
+    background-color:rgb(191, 191, 191); 
+     
 }
 
 footer img {
-    margin-top: 70px ;
+    margin-top: 50px ;
     max-height: 100px ;
     margin-left: 35px ;
 }
 
 footer ul {
-    margin-top: 65px ;
+    margin-top: 45px ;
 }
 footer ul li {
     display: flex;    
     text-decoration: underline;
+    color:rgb(153, 0, 51)
 }
 
+@media screen and (max-wdith: 992px){
+    .work {
+    width:50%;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-wdith: 768px){
+    .work {
+      width:100%;
+      flex-direction: column;
+    }
+}
 
