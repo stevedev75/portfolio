@@ -4,6 +4,7 @@
     margin-right: 10;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* text-decoration-color:rgb(43, 68, 68); */
+    max-width: 100%;
 }
 
 body {
@@ -12,41 +13,38 @@ body {
        /* gray text: rgb(191, 191, 191)*/
 }
 
-nav {
-    
-      color: rgb(153, 0, 51); 
-      display: flex;
-      float: right; 
-      padding: 14px 20px;
-      
-    }
-
-nav a {
-      float: right;  
-      text-decoration: underline;
-    }
 
 header  {
+    display: flex;
     background-color: rgb(191, 191, 191);
-    margin-bottom: 60px;
-    /*background-color:rgb(73, 182, 255);
-    padding: 14px 20px; */
+    margin-bottom: 20px;
+    max-height: 120px;
     }
 
 header h1 {
     color:rgb(191, 191, 191);
     background-color:rgb(153, 0, 51);
-    padding: 5px 10px;
     text-align: center;
-     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-      display: inline-block;  
+    display: inline-block;  
     }
+    
+nav {
+        color: rgb(153, 0, 51); 
+        padding: 10px 10px;
+        max-height:50px; 
+      }
 
-header ul li {
+nav a { 
+        text-decoration: underline;
+      }
+  
+nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
     color: rgb(153, 0, 51);
-    }
+    /* max-height: 100px; */
+    text-align:right;    
+}
      
 main {
     display: flex;
@@ -57,82 +55,94 @@ main {
     margin-right: 2px;
 }
 
+.about-me {
+    margin-right: 20px;
+}
 
 .work {
         display: flex;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         flex-direction: column; 
-        width: 1005px;
-        height: 600px;
+        width: 100%;
+        height: 75%%;
         border-width: 2px;
         padding: 20 px;
         margin-right: 10px;
         margin-bottom: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
        
     }  
-.card {
+/* .card { 
     height: 100%;
     width: 100%;
-    border: 1px solid #000;
+    border: 1px solid #000;*/
 }
-  
-.main-example h3 {
+
+.main-example img {
+width: 75%
+}
+
+/* .main-example h3 {
     text-indent:50%;
-}
-
-.secondary-examples h3 {
-    text-indent:25% ;
-}
-
+} */
 
 .main-example {
     border-width: 2px;
     padding: 20 px;
     margin-right: 10px;
-    margin-top: 70px;
+    margin-top: 20px;
     max-width: 100%;
 }
 
-.content h2 {
+
+h2 {
     /* color:rgb(39, 76, 243); */
     color:rgb(191, 191, 191);
 }
 
 h3 {
-    color:rgb(191, 191, 191); 
+    color:rgb(191, 191, 191);
+    text-align: center; 
 }
 
 h4 {
     color:rgb(191, 191, 191); 
 }
 
-.about-me .card {
+.about-me {
    display: flex;
    flex-wrap: wrap;
    color: rgb(67, 129, 131);
-   
+   width: fit-content;
+   height: fit-content;
+   margin-bottom: 10% ;
 }
 
-aside {
+.about-me img {
+padding-top: 20px;
+
+}
+.secondary
+        {
     display: flex;
-    margin-top: 70px ;
-   /* flex-wrap: wrap; */
-    flex-direction: column;
+    /* margin-top: 70px ; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.secondary {
+    width: 90%
 }
 
 footer {
-    text-align: center;
     display: flex;
-    color: rgb(153, 0, 51); ;   
-    background-color:rgb(191, 191, 191); 
-     
+    background-color:rgb(191, 191, 191);    
 }
 
-footer img {
-    margin-top: 50px ;
-    max-height: 100px ;
-    margin-left: 35px ;
+footer h2 {
+text-align: center;
+color: rgb(153, 0, 51);    
 }
 
 footer ul {
