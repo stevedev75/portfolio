@@ -1,94 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+    <header>
 
-    <header> 
         <h1>Stephen Dever</h1>
-        
-            <nav> 
-
-            <ul> <h3>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </h3>
+        <nav>
+            <ul>
+                <h4>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </h4>
             </ul>
-            </nav>
+        </nav>
+
     </header>
 
 
     <main>
-            <section id="about-me" class="about-me">
-                <h2>About Me</h2>
-                <p><h4>Hello! My name is Stephen Dever, and I am currently a Full Flex Web Development student in the University of Pennsylvania’s coding bootcamp. Previously, I worked in and around the higher education arena for over twenty years both at the university level as well as in the private sector, as an independent educational consultant. I hold a bachelor’s degree in English and a master’s degree in Education from Saint Joseph’s University.</h4></p>
-                <p><h4>In my most recent roles, I was a power user of various educational technology products and platforms which piqued my interest in web development, eventually leading me to this exciting pivot. Now, as I am entering the “Career 2.0” phase of my life I couldn’t be more pleased about what I have already learned and what I will be learning during the rest of this six-month program. So far, we have covered content in HTML and Advanced CSS, and we will be continuing to JavaScript and developing many other in-demand programming skills throughout the course of this bootcamp. Stay tuned as I will be updating both the content and the style of this web page frequently!</h4></p>    
-                <img src="assets/images/Dever.Headshot.jpg" alt="headshot">    
-            </section>
+        <!-- Added column one here-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
 
-            <section id="work" class="work">
-                <h2>Work</h2>
-        
-                <section class="main-example">
-                    <a href="https://stevedev75.github.io/horiseon-services/">
-                  <img src="assets/images/Horiseon_example.jpg" alt="work_example_one"></img>
-                </a>
-                <h3>First Work Project</h3>    
-                </section>
-            
-                 <second class="secondary">
-                    <section class="additional-example_1">
-                    <img src="assets/images/WP1.jpg" alt="web page holder image 1">
-                    <h3>Second Work Project</h3>    
+                    <section id="about-me_1" class="about-me_1">
+                        <h2>About Me</h2>
+                        <p></p>
+                        <p></p>
+                        <section id="about-me" class="about-me"></section>
+                        <h5>Hello! My name is Stephen Dever, and I am currently a Full Flex Web Development student in
+                            the
+                            University of Pennsylvania’s coding bootcamp. Previously, I worked in and around the higher
+                            education arena for over twenty years both at the university level as well as in the private
+                            sector, as an independent educational counselor. I hold a bachelor’s degree in English and a
+                            master’s degree in
+                            Education.</h5>
+
+                        <h5>In my most recent roles, I was a power user of various educational technology products and
+                            platforms
+                            which piqued my interest in web development, eventually leading me to this exciting pivot.
+                            Now, as I am entering the “Career 2.0” phase of my life I couldn’t be more pleased about
+                            what I have already learned and what I will be learning during the rest of this six-month
+                            program.
+
+                            So far, we have covered content in HTML, CSS, JavaScript, jQuery, Bootstrap, APIs, GitHub
+                            and more. In addition, we will be continuing our "hands-on" studies and developing many
+                            other in-demand
+                            programming skills throughout the course of this bootcamp. Stay tuned as I will be updating
+                            both the
+                            content and the style of this web page frequently!</h>
+                            </p> 
+                            <p></p>
+                            <p></p>
                     </section>
 
-                <section class="additional-examples_2">
-                    <img src="assets/images/WP2.jpg" alt="web page holder image 2">
-                    <h3>Third Work Project</h3>
-                </section>
-                </section>
-              
-        </section>
+                    <div class="row">
+                        <section class="headshot">
+                          
+                            <img src="assets/images/Dever.Headshot.Color.jpg" alt="headshot" class="rounded"></img>
+                        </section>
 
-    </main>     
+                        <section id="contact-me">
+                            <h3>Contact Me</h3>
+                            <ul class="nav justify-content-center">
+                                <h3>
 
-    <footer id="contact-me"> 
-        <h2>Contact Me</h2>
-            <ul> <h3>
-              
-                <li>
-                <a href="#phone-number">555.555.1234</a>
-                </li>
-                
-                <li>
-                <a href="#email">sd@email.com</a>
-                </li>
-                
-                <li>
-                <a href="#git-hub">GitHub</a>
-                </li>
-                
-                <li>
-                <a href="#linkedin">LinkedIn</a>
-                </li>
+                                    <li class="nav-item">
+                                        610-742-7738</a>
+                                    </li>
 
-            </h3></ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mailto:stephendever.cr@gmail.com">email</a>
+                                    </li>
 
-    </footer>
-    </body>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://github.com/stevedev75/">GitHub</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="https://www.linkedin.com/in/stephendever/">LinkedIn</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#phone-number">Resume</a>
+                                    </li>
+                                </h3>
+                            </ul>
+                        </section>
+
+                    </div>
+
+                </div>
+                <!-- Added column two here-->
+                <div class="row">
+                    <div class="col">
+                        <section id="work" class="work">
+                            <h2>Work</h2>
+
+                            <section class="main-example">
+                                <a href="https://nishyo-coder.github.io/Project-One-Pandemic-Travel/">
+                                    <img src="assets/images/Group_One_Proj_screenshot.jpg" alt="group project one image"
+                                        class="rounded"></img>
+                                </a>
+                                <h5>Pandemic Travel Dashboard</h5>
+                                <a class="nav-link" href="https://github.com/Nishyo-coder/Project-One-Pandemic-Travel">GitHub Repository</a>
+
+
+                            </section>
+
+                            <second class="secondary">
+                                <section class="additional-example_1">
+                                    <a href="https://stevedev75.github.io/weather-dashboard/">
+                                        <img src="assets/images/Weather Dashboard.jpg" alt="weather dashboard image"
+                                            class="rounded">
+                                        </img>
+                                    </a>
+                                    <h5>Weather Dashboard</h5>
+                                    <a class="nav-link" href="https://github.com/stevedev75/weather-dashboard">GitHub Repository</a>
+
+                                </section>
+                                <p></p>
+                                <p></p>
+
+                                <section class="additional-examples_3">
+                                    <a href="https://stevedev75.github.io/Work-Day-Scheduler/">
+                                        <img src="assets/images/Work Day Scheduler.jpg" alt="workday scheduler image"
+                                            class="rounded"></img>
+                                    </a>
+                                    <h5>Work Day Scheduler</h5>
+                                    <a class="nav-link" href="https://github.com/stevedev75/Work-Day-Scheduler">GitHub Repository</a>
+
+                                </section>
+                        </section>
+                    </div>
+                    </section>
+                </div>
+            </div>
+
+    </main>
+
+</body>
 
 </html>

@@ -1,58 +1,91 @@
-* {
-    padding: 2;
-    margin-left: 10;
-    margin-right: 10;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 100%;
+* {    
+    font-family: 'Playfair Display', serif;
+     max-width: 100%; 
 }
 
 body {
-
        background-color:rgb(153, 0, 51); 
-
 }
-
 
 header  {
     display: flex;
+    /*justify-content: space-between;*/
+    justify-content: space-evenly;
     background-color: rgb(191, 191, 191);
     margin-bottom: 20px;
-    max-height: 120px;
+    max-height: 100px;
+    max-width: 100%;
     }
 
 header h1 {
-    color:rgb(191, 191, 191);
-    background-color:rgb(153, 0, 51);
+    color:rgb(153, 0, 51);
+    background-color: rgb(191,191,191);
     text-align: center;
     display: inline-block;  
     }
     
 nav {
+    
         color: rgb(153, 0, 51); 
         padding: 10px 10px;
         max-height:50px; 
+        text-align: right;
       }
 
-nav a { 
-        text-decoration: underline;
+nav a { color: rgb(153, 0, 51);
+     
       }
   
 nav ul li {
     display: inline-block;
     margin-left: 25px; 
     color: rgb(153, 0, 51);
-    text-align:right;    
+       
 }
      
 main {
     display: flex;
-    padding: 20 px;
     margin-top: 2px;
-    margin-right: 2px;
+    margin-right: 2px;   
+}
+
+
+.about-me_1 h2 {
+    text-align:center
+}
+
+
+.about-me h2 {
+    text-align: center;
 }
 
 .about-me {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex;
+   width: 100%;
+   height: 75%;
+   margin-bottom: 1% ;
+   text-align: left;
+}
+
+.headshot {
+    margin-top: 5% ;
+}
+
+
+
+#contact-me {
+    margin-top: 5% ;
+
+}
+.about-me h2 {
+    text-align: center;
+}
+
+.headshot {
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .work {
@@ -62,32 +95,91 @@ main {
         width: 100%;
         height: 75%%;
         border-width: 2px;
-        padding: 20 px;
         margin-right: 10px;
         margin-bottom: 20px;
-        padding-bottom: 10px;
+        text-align: center;
        
     }  
 
+.main-example img {
+/* width: 75% */
+width: 287px;
+height: 151px;
 }
 
-.main-example img {
-width: 75%
+.main-example-gh img {
+    width: 40px;
+    height: 40px
 }
 
 
 .main-example {
     border-width: 2px;
-    padding: 20 px;
     margin-right: 10px;
     margin-top: 20px;
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.additional-example_1 {
+    border-width: 2px;
+    margin-right: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-h2 {
-    /* color:rgb(39, 76, 243); */
+.additional-example_1 img {
+    width: 287px;
+    height: 151px;
+    }
+
+
+.additional-examples_2 {
+    border-width: 2px;
+    margin-right: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-example_2 img {
+    width: 287px;
+    height: 151px;
+    }
+
+
+.additional-examples_3 {
+    border-width: 2px;
+    margin-right: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-examples_3 img {
+    width: 287px;
+    height: 151px;
+    }
+
+ .about-me h2 {
+    text-align: center;
+ }   
+
+h2 
+{
     color:rgb(191, 191, 191);
+    text-align: center;
 }
 
 h3 {
@@ -96,52 +188,16 @@ h3 {
 }
 
 h4 {
-    color:rgb(191, 191, 191); 
+    color:rgb(191, 191, 191);
+    text-align: center; 
 }
 
-.about-me {
-   display: flex;
-   flex-wrap: wrap;
-   color: rgb(67, 129, 131);
-   width: fit-content;
-   height: fit-content;
-   margin-bottom: 10% ;
+h5 {
+    color:rgb(191, 191, 191);
+/*    text-align: center; */
 }
 
-.about-me img {
-padding-top: 20px;
 
-}
-.secondary
-        {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
-.secondary {
-    width: 90%
-}
-
-footer {
-    display: flex;
-    background-color:rgb(191, 191, 191);    
-}
-
-footer h2 {
-text-align: center;
-color: rgb(153, 0, 51);    
-}
-
-footer ul {
-    margin-top: 45px ;
-}
-footer ul li {
-    display: flex;    
-    text-decoration: underline;
-    color:rgb(153, 0, 51)
-}
 
 @media screen and (max-wdith: 992px){
     .work {
