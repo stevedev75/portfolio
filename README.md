@@ -1,11 +1,10 @@
-# portfolio
+# Portfolio
 
 ## Portfolio to showcase my projects to potential employers
 
-My motivation for this project was to create a repository and a one-page web application from scratch 
-(using HTML and CSS) as a professional portfolio to house the different applications and projects I am
-proud of that will also be of interest to potential employers when I begin the job search process
-towards the end of this bootcamp.
+My motivation for this project was to update my repository and my one-page web application from scratch 
+(using HTML, CSS, Bootstrap, and Google Fonts) as a professional portfolio to house the different applications and projects I am
+proud of that will also be of interest to potential employers when I begin the job search process during the last third of this bootcamp.
 
 I built this project as a showcase to potential employers, to demonstrate some of my HTML and CSS skills
 in action, and eventually as a repository for robust examples of my programming projects. 
@@ -18,7 +17,7 @@ In this project, I learned a tremendous amount of information about responsive w
 
 Please see screenshot to preview UI:
 
-![image](https://user-images.githubusercontent.com/77076615/110858885-9dd3d200-8288-11eb-92f1-18922d5447ef.png)
+![image](https://user-images.githubusercontent.com/77076615/116010742-efdd7680-a5ee-11eb-8b38-55959049b7f7.png)
 
 Please see the URL to the deployed web application below
 
