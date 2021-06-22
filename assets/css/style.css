@@ -23,7 +23,12 @@ header h1 {
     text-align: center;
     display: inline-block;  
     }
-    
+
+#name {
+    margin-left: 18rem;
+}    
+
+
 nav {
     
         color: rgb(153, 0, 51); 
