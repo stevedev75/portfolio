@@ -13,11 +13,11 @@ This application solves the problem often found in non-mobile-friendly and non-r
 that do not adjust to different sized viewing screens. 
 
 In this project, I learned a tremendous amount of information about responsive web pages that include
-“flexbox” and “media queries” in their design. 
+“flexbox” and “media queries” in their design, in addition to figuring out to make small corrections with my design in CSS that compounded, make the web page more attractive. 
 
 Please see screenshot to preview UI:
 
-![image](https://user-images.githubusercontent.com/77076615/116010742-efdd7680-a5ee-11eb-8b38-55959049b7f7.png)
+![image](https://user-images.githubusercontent.com/77076615/122989230-91274580-d370-11eb-910d-70f28b497c56.png)
 
 Please see the URL to the deployed web application below
 
