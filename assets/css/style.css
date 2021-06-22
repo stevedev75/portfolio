@@ -40,7 +40,10 @@ nav ul li {
     display: inline-block;
     margin-left: 25px; 
     color: rgb(153, 0, 51);
-       
+}
+
+.nav-link {
+    color:rgb(191,191,191);
 }
      
 main {
@@ -73,11 +76,18 @@ main {
     margin-top: 5% ;
 }
 
+.h4 {
+    color:rgb(153, 0, 51);
+}
+
+
+
+
 
 
 #contact-me {
     margin-top: 5% ;
-    color:rgb(191, 191, 191)
+    color:rgb(191, 191, 191);
 
 }
 .about-me h2 {
@@ -197,6 +207,7 @@ h5 {
     color:rgb(191, 191, 191);
 /*    text-align: center; */
 }
+
 
 
 
