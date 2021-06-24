@@ -16,8 +16,7 @@ In this project, I learned a tremendous amount of information about responsive w
 “flexbox” and “media queries” in their design, in addition to figuring out to make small corrections with my design in CSS that compounded, make the web page more attractive. 
 
 Please see screenshot to preview UI:
-
-![image](https://user-images.githubusercontent.com/77076615/122989230-91274580-d370-11eb-910d-70f28b497c56.png)
+![image](https://user-images.githubusercontent.com/77076615/123339874-61677180-d519-11eb-94b1-545d5baec958.png)
 
 Please see the URL to the deployed web application below
 
